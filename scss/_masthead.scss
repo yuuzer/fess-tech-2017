@@ -8,6 +8,11 @@ header.masthead {
     background-image: url('../img/header4.jpg');
     background-position: center;
     @include background-cover;
+    .eu-project{
+        bottom: 0;
+        right: 0;
+        position: absolute;
+    }
     .header-content {
         position: relative;
         width: 100%;
